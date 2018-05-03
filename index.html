@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Visualization Dashboard (Lattitude)</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<!--- Beginning Body text -->
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Latitude</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Data Visualizations <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="viz1.html">City Latitude vs Max Temp</a></li>
+          <li><a href="viz2.html">City Latitude vs Humidity </a></li>
+          <li><a href="viz3.html">City Latitude vs Cloudiness</a></li>
+          <li><a href="viz4.html">City Latitude vs Wind Speed</a></li>
+        </ul>
+      </li>
+      <li><a href="comparisons.html">Comparisons</a></li>
+      <li><a href="data.html">Data</a></li>
+    </ul>
+  </div>
+</nav>
+<header class="header">
+    <h1><font color = #000099>Summary: Latitude</font></h1>
+  </header>
+  <main>
+    <section class="intro">
+      <article class="intro">
+        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis,
+            we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+        </p><br>
+        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude.  Factors we looked at included:
+            temperature, cloudiness, wind speed, and humidity.  THis site provides the source data and visualizations created as part of the analysis,
+            as well as explanations and descriptions of any trends and correlations witnessed.
+        
+      </article>
+</body>
+</html>

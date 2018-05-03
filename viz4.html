@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Visualization: Visual 4</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<!--- Beginning Body text -->
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Latitude</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="index.html">Data Visualizations <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="viz1.html">City Latitude vs Max Temp</a></li>
+            <li><a href="viz2.html">City Latitude vs Humidity </a></li>
+            <li><a href="viz3.html">City Latitude vs Cloudiness</a></li>
+            <li><a href="viz4.html">City Latitude vs Wind Speed</a></li>
+          </ul>
+        </li>
+        <li><a href="comparisons.html">Comparisons</a></li>
+        <li><a href="data.html">Data</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+      <div class="row row-grid">
+          
+          <div class="col-md-8">
+              <div class="box box-left">
+              <section id="intro">
+                  <h1><font color = #000099>Wind Speed</font></h1>
+                  <hr>
+                  <figure>
+                              <a target="_blank" href="fig4.png">
+                                  <img id="viz-main" src="fig4.png" alt="Latitude vs. Wind Speed">
+                              </a>
+                  </figure>
+                  
+                  <section id="summary">
+                  <p>From the graph, much like what we discovered in the humidity graph, we see that a higher concentration of winds are measured between the two tropics (Cancer and Capricorn).
+                    It is safe to assume this has to do with the heat and pressure of the earth.  But why is this the case?  We will need to take a deeper
+                    dive into Hadley Cells.
+                  </p>
+                  <br>
+                  <h3><font color = #000099>Hadley Cells</font></h3>
+                  <br>
+                  <p><img src="wind.png" alt = "Winds on Earth" align="left"> The zones marked subtropical high are your answers: high pressure zones that exist at certain latitudes.
+                    Those cells of recirculation are caused by uneven heating of the surface and they move air (and thus alter pressure) at a global level.
+                     At the 30 degrees discontinuities you have the Jet Stream moving air at well over 150 kph. That jet stream changes pressure under it.
+                    Thus, jet streams affects cyclonic storms in the lower part of the atmosphere.
+
+                  </p>
+                  </section>
+
+              </section>
+              </div>
+          </div>
+  </body>
+  </html>

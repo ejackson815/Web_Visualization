@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Visualization: Visual 2</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<!--- Beginning Body text -->
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Latitude</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="index.html">Data Visualizations <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="viz1.html">City Latitude vs Max Temp</a></li>
+            <li><a href="viz2.html">City Latitude vs Humidity </a></li>
+            <li><a href="viz3.html">City Latitude vs Cloudiness</a></li>
+            <li><a href="viz4.html">City Latitude vs Wind Speed</a></li>
+          </ul>
+        </li>
+        <li><a href="comparisons.html">Comparisons</a></li>
+        <li><a href="data.html">Data</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+      <div class="row row-grid">
+          
+          <div class="col-md-8">
+              <div class="box box-left">
+              <section id="intro">
+                  <h1><font color = #000099>Humidity</font></h1>
+                  <hr>
+                  <figure>
+                              <a target="_blank" href="fig2.png">
+                                  <img id="viz-main" src="fig2.png" alt="Latitude vs. Humidity">
+                              </a>
+                  </figure>
+                  
+                  <section id="summary">
+                  <p>What does this graph represent?  First lets define humidity:  Atmospheric pressure or the quantity that represents the amount
+                    of water vapor in the atmoshphere.  In the graph above we see that the higher concentration of humidity volumes lies between the tropic of cancer (23.5 degree North of equator)
+                    and tropic of Capricorn (23.5 degrees south of equator).  In this range we see the larger percentage of precipitation thus resulting in higher humidity volumes as water vapor is more abundant.
+                  </p>
+                  </section>
+
+              </section>
+              </div>
+          </div>
+  </body>
+  </html>
